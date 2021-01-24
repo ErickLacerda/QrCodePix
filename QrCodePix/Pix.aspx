@@ -57,12 +57,9 @@
 </head>
 
 <body runat="server">
-
     <form runat="server">
 
-        <div class="divCabecalho">
-            QR-Code Pix Estático
-        </div>
+        <div class="divCabecalho">QR-Code Pix Estático</div>
 
         <div runat="server" class="divPrincipal">
             <div class="input-group mb-3">
@@ -96,6 +93,8 @@
         </div>
 
         <div class="divRodape"></div>
+
     </form>
 </body>
+
 </html>
