@@ -124,7 +124,7 @@ namespace QrCodePix
             EncodingOptions encodingOptions = new EncodingOptions() { Width = 450, Height = 450, Margin = 0, PureBarcode = false };
 
             encodingOptions.Hints.Add(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.H);
-            barcodeWriter.Renderer = new BitmapRenderer();
+            barcodeWriter.Renderer = new BitmapRenderer { Foreground = Color.DarkSlateGray};
             barcodeWriter.Options = encodingOptions;
             barcodeWriter.Format = BarcodeFormat.QR_CODE;
 
